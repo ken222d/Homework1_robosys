@@ -13,9 +13,9 @@
 $ git clone git@github.com:ken222d/Homework1_robosys.git
 $ cd Homework1_robosys
 $ echo "調子" | ./Consult_cat.py
-
-# または./Consult_cat.py
-# "調子"
+# または
+# ./Consult_cat.py
+# その後"調子"を入力
 ```
 
 
