@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2024 Kenta ishizeki<a.w.g.d0201@icloud.com>                                                                   # SPDX-License-Identifier: BSD-3-Clause
 
 ng (){
