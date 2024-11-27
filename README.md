@@ -2,7 +2,7 @@
 ロボットシステム学の課題1
 
 
-[![ubuntu-latest](https://github.com/shellgei/rusty_bash/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/shellgei/rusty_bash/actions/workflows/ubuntu.yml)
+[![test](https://github.com/ken222d/Homework1_robosys/.github/workflows/test.yml)]
 ![](https://img.shields.io/github/license/ken222d/Homework1_robosys)
 
 
