@@ -41,6 +41,7 @@ $ echo "調子" | ./Consult_cat.py
 
 
 ## 参考資料
+* [ロボットシステム学 第3回: Linux環境でのPythonプログラミングⅡ](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html)
+* [ロボットシステム学 第5回: 著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html)
 * [ロボットシステム学 第6回: ソフトウェアのテスト](https://github.com/shellgei/rusty_bash/blob/main/README.md)
-* [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14)
-* []
+* [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html)
