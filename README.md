@@ -16,7 +16,7 @@
 
 
 ```bash
-$ git clone git@github.com:ken222d/Homework1_robosys.git
+$ git clone https://github.com/ken222d/Homework1_robosys
 $ cd Homework1_robosys
 $ echo "調子" | ./Consult_cat.py
 # または
