@@ -40,6 +40,15 @@ $ echo "調子" | ./Consult_cat.py
 例: 今日はとても疲れた。
 
 
+## 必要なソフトウェア
+- Python
+  - テスト済みバージョン: 3.7 ~ 3.10  
+
+
+## テスト環境
+- Ubuntu 22.04.5 LTS
+
+
 ## 参考資料
 * [ロボットシステム学 第3回: Linux環境でのPythonプログラミングⅡ](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html)
 * [ロボットシステム学 第5回: 著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html)
@@ -47,3 +56,10 @@ $ echo "調子" | ./Consult_cat.py
 * [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html)
 * [GitHub License - Shields.io](https://shields.io/badges/git-hub-license)
 * [ワークフロー状態バッジの追加](https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
+
+
+## ライセンスと著作権
+
+
+- このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます. 
+- © 2024 Kenta Ishizeki
