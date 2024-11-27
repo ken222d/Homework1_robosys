@@ -41,4 +41,4 @@ $ echo "調子" | ./Consult_cat.py
 
 
 ## 参考資料
-* [【Python 入門】条件分岐の基本である if 文の使い方をわかりやすく解説！else/elif も紹介]https://www.kikagaku.co.jp/kikagaku-blog/python-if-else-elif/
+* [ロボットシステム学 第7回: GitHubでのテスト 千葉工業大学 上田 隆一]https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14
