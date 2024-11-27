@@ -45,3 +45,5 @@ $ echo "調子" | ./Consult_cat.py
 * [ロボットシステム学 第5回: 著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html)
 * [ロボットシステム学 第6回: ソフトウェアのテスト](https://github.com/shellgei/rusty_bash/blob/main/README.md)
 * [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html)
+* [GitHub License - Shields.io](https://shields.io/badges/git-hub-license)
+* [ワークフロー状態バッジの追加](https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
