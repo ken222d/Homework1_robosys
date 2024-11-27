@@ -1,5 +1,4 @@
-# Homework1_robosys
-ロボットシステム学の課題1
+## 猫相談所
 
 
 ![test](https://github.com/ken222d/Homework1_robosys/actions/workflows/test.yml/badge.svg)
@@ -18,10 +17,13 @@
 ```bash
 $ git clone https://github.com/ken222d/Homework1_robosys
 $ cd Homework1_robosys
-$ echo "調子" | ./Consult_cat.py
-# または
-# ./Consult_cat.py
-# その後"調子"を入力
+$ echo 寂しい | ./Consult_cat.py   　　　　　　　　　　　　　　　　　　　　　　　　　　#実行（調子: 寂しい）
+今日の調子は寂しい（例: 絶好調、疲れた、眠い、寂しいなど）
+寂しい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言って いるようです🌙🐈　#結果
+$./Consult_cat.py
+元気                               　　　　　　　　　　　　　　　　　　　　　　　　　　#あなたの調子を入力（調子: 元気）
+今日の調子は元気（例: 絶好調、疲れた、眠い、寂しいなど）
+にゃんにゃん！元気なんですね！猫も一緒にごろごろ嬉しい気分です✨😺　　　　　　　　　　#結果　
 ```
 
 
