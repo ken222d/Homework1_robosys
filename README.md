@@ -2,7 +2,7 @@
 ロボットシステム学の課題1
 
 
-[![test](https://github.com/ken222d/Homework1_robosys/blob/main/.github/workflows/test.yml)](https://github.com/ken222d/Homework1_robosys/blob/main/.github/workflows/test.yml)
+[![test](https://github.com/ken222d/Homework1_robosys/blob/main/.github/workflows/test.yml/badge.svg)](https://github.com/ken222d/Homework1_robosys/blob/main/.github/workflows/test.yml)
 ![](https://img.shields.io/github/license/ken222d/Homework1_robosys)
 
 
