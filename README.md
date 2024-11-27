@@ -39,3 +39,6 @@ $ echo "調子" | ./Consult_cat.py
 
 例: 今日はとても疲れた。
 
+
+## 参考資料
+* [【Python 入門】条件分岐の基本である if 文の使い方をわかりやすく解説！else/elif も紹介]https://www.kikagaku.co.jp/kikagaku-blog/python-if-else-elif/
