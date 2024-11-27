@@ -41,4 +41,6 @@ $ echo "調子" | ./Consult_cat.py
 
 
 ## 参考資料
-* [ロボットシステム学 第7回: GitHubでのテスト 千葉工業大学 上田 隆一]https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14
+* [ロボットシステム学 第6回: ソフトウェアのテスト](https://github.com/shellgei/rusty_bash/blob/main/README.md)
+* [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14)
+* []
