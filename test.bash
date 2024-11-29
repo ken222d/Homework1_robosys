@@ -9,201 +9,202 @@ ng (){
 
 res=0
 
-out=$(echo 幸せ | ./Consult_cat)
+out=$(echo 幸せ | ./consultcat)
 [ "${out}" = "今日の調子は幸せ（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！幸せなんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo しあわせ | ./Consult_cat)
+out=$(echo しあわせ | ./consultcat)
 [ "${out}" = "今日の調子はしあわせ（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！しあわせなんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 絶好調 | ./Consult_cat)
+out=$(echo 絶好調 | ./consultcat)
 [ "${out}" = "今日の調子は絶好調（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！絶好調なんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo ぜっこうちょう | ./Consult_cat)
+out=$(echo ぜっこうちょう | ./consultcat)
 [ "${out}" = "今日の調子はぜっこうちょう（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！ぜっこうちょうなんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 最高 | ./Consult_cat)
+out=$(echo 最高 | ./consultcat)
 [ "${out}" = "今日の調子は最高（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！最高なんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo さいこう | ./Consult_cat)
+out=$(echo さいこう | ./consultcat)
 [ "${out}" = "今日の調子はさいこう（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！さいこうなんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 元気 | ./Consult_cat)
+out=$(echo 元気 | ./consultcat)
 [ "${out}" = "今日の調子は元気（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！元気なんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo げんき | ./Consult_cat)
+out=$(echo げんき | ./consultcat)
 [ "${out}" = "今日の調子はげんき（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！げんきなんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 疲れた | ./Consult_cat)
+out=$(echo 疲れた | ./consultcat)
 [ "${out}" = "今日の調子は疲れた（例: 絶好調、疲れた、眠い、寂しいなど）
 少し疲れてるみたいですね。猫がそっと寄り添いながら『にゃーん』と癒やしてくれます🍵😽" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo つかれた | ./Consult_cat)
+out=$(echo つかれた | ./consultcat)
 [ "${out}" = "今日の調子はつかれた（例: 絶好調、疲れた、眠い、寂しいなど）
 少し疲れてるみたいですね。猫がそっと寄り添いながら『にゃーん』と癒やしてくれます🍵😽" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
 
-out=$(echo だるい | ./Consult_cat)
+out=$(echo だるい | ./consultcat)
 [ "${out}" = "今日の調子はだるい（例: 絶好調、疲れた、眠い、寂しいなど）
 少し疲れてるみたいですね。猫がそっと寄り添いながら『にゃーん』と癒やしてくれます🍵😽" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
 
-out=$(echo 眠い | ./Consult_cat)
+out=$(echo 眠い | ./consultcat)
 [ "${out}" = "今日の調子は眠い（例: 絶好調、疲れた、眠い、寂しいなど）
 少し疲れてるみたいですね。猫がそっと寄り添いながら『にゃーん』と癒やしてくれます🍵😽" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
 
-out=$(echo ねむい | ./Consult_cat)
+out=$(echo ねむい | ./consultcat)
 [ "${out}" = "今日の調子はねむい（例: 絶好調、疲れた、眠い、寂しいなど）
 少し疲れてるみたいですね。猫がそっと寄り添いながら『にゃーん』と癒やしてくれます🍵😽" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo しんどい | ./Consult_cat)
+out=$(echo しんどい | ./consultcat)
 [ "${out}" = "今日の調子はしんどい（例: 絶好調、疲れた、眠い、寂しいなど）
 しんどい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 辛い | ./Consult_cat)
+out=$(echo 辛い | ./consultcat)
 [ "${out}" = "今日の調子は辛い（例: 絶好調、疲れた、眠い、寂しいなど）
 辛い時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 悲しい | ./Consult_cat)
+out=$(echo 悲しい | ./consultcat)
 [ "${out}" = "今日の調子は悲しい（例: 絶好調、疲れた、眠い、寂しいなど）
 悲しい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo かなしい | ./Consult_cat)
+out=$(echo かなしい | ./consultcat)
 [ "${out}" = "今日の調子はかなしい（例: 絶好調、疲れた、眠い、寂しいなど）
 かなしい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo つらい | ./Consult_cat)
+out=$(echo つらい | ./consultcat)
 [ "${out}" = "今日の調子はつらい（例: 絶好調、疲れた、眠い、寂しいなど）
 つらい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 寂しい | ./Consult_cat)
+out=$(echo 寂しい | ./consultcat)
 [ "${out}" = "今日の調子は寂しい（例: 絶好調、疲れた、眠い、寂しいなど）
 寂しい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo さみしい | ./Consult_cat)
+out=$(echo さみしい | ./consultcat)
 [ "${out}" = "今日の調子はさみしい（例: 絶好調、疲れた、眠い、寂しいなど）
 さみしい時ですね…。猫が膝の上でごろごろしながら『大丈夫だよ』と言っているようです🌙🐈" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 普通 | ./Consult_cat)
+out=$(echo 普通 | ./consultcat)
 [ "${out}" = "今日の調子は普通（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo ふつう | ./Consult_cat)
+out=$(echo ふつう | ./consultcat)
 [ "${out}" = "今日の調子はふつう（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo まあまあ | ./Consult_cat)
+out=$(echo まあまあ | ./consultcat)
 [ "${out}" = "今日の調子はまあまあ（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 特になし | ./Consult_cat)
+out=$(echo 特になし | ./consultcat)
 [ "${out}" = "今日の調子は特になし（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo とくになし | ./Consult_cat)
+out=$(echo とくになし | ./consultcat)
 [ "${out}" = "今日の調子はとくになし（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 特にない | ./Consult_cat)
+out=$(echo 特にない | ./consultcat)
 [ "${out}" = "今日の調子は特にない（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo とくにない | ./Consult_cat)
+out=$(echo とくにない | ./consultcat)
 [ "${out}" = "今日の調子はとくにない（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 特に無し | ./Consult_cat)
+out=$(echo 特に無し | ./consultcat)
 [ "${out}" = "今日の調子は特に無し（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo とくに無し | ./Consult_cat)
+out=$(echo とくに無し | ./consultcat)
 [ "${out}" = "今日の調子はとくに無し（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo 特に無い | ./Consult_cat)
+out=$(echo 特に無い | ./consultcat)
 [ "${out}" = "今日の調子は特に無い（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo とくに無い | ./Consult_cat)
+out=$(echo とくに無い | ./consultcat)
 [ "${out}" = "今日の調子はとくに無い（例: 絶好調、疲れた、眠い、寂しいなど）
 普通の日も大切にゃん。猫はそばでのんびり見守っていますよ🐾" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 
-out=$(echo あいうえお | ./Consult_cat)
+#不正な入力
+out=$(echo あいうえお | ./consultcat)
 [ "${out}" = "今日の調子はあいうえお（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃ？それはどんな気分かにゃ？猫も気になってそばにいます🐾" ] || ng "$LINENO"
                                                                     [ "${res}" = 0 ] && echo OK
 
-out=$(echo めちゃくちゃ絶好調 | ./Consult_cat)
+out=$(echo めちゃくちゃ絶好調 | ./consultcat)
 [ "${out}" = "今日の調子はめちゃくちゃ絶好調（例: 絶好調、疲れた、眠い、寂しいなど）
 にゃんにゃん！めちゃくちゃ絶好調なんですね！猫も一緒にごろごろ嬉しい気分です✨😺" ] || ng "$LINENO"
 

@@ -56,7 +56,7 @@ $./Consult_cat                                                                  
 ## 参考資料
 * [ロボットシステム学 第3回: Linux環境でのPythonプログラミングⅡ](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html)
 * [ロボットシステム学 第5回: 著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html)
-* [ロボットシステム学 第6回: ソフトウェアのテスト](https://github.com/shellgei/rusty_bash/blob/main/README.md)
+* [ロボットシステム学 第6回: ソフトウェアのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html)
 * [ロボットシステム学 第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html)
 * [GitHub License - Shields.io](https://shields.io/badges/git-hub-license)
 * [ワークフロー状態バッジの追加](https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
